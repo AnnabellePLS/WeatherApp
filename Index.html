@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+</head>
+<body>
+      <header></header>  
+  <nav><ul><li>Home</li><li>News</li><li>Weather</li><li style="float: right">About</li></ul></nav>
+    <section class="weather-section">
+        <div class="page">
+          <h1>LATEST WEATHER</h1>
+          <div class="archive">
+            <article class="article">
+              <section id="stats">
+                <div class="summary">
+                  <h2>Weather summary</h2>
+                  <h3 id="five-city"></h3>
+                  <p>Currently:46°F <span id="current-desc"></span></p>
+                  <p>
+                    <h2>hi</h2>
+                    Tempature:
+                    <span id="current-temp"></span> 46°F
+                  </p>
+                  <p>Wind Chill: <span id="current-windChill"></span> 42°F</p>
+                  <p>Humidity: <span id="current-humid"></span>42%</p>
+                  <p>Wind Speed: <span id="current-windSpeed"></span> 9 mph</p>
+                </div>
+              </section>
+              <div>
+                <img src="https://t4.ftcdn.net/jpg/02/66/38/15/360_F_266381525_alVrbw15u5EjhIpoqqa1eI5ghSf7hpz7.jpg" alt="Random Image" />
+              </div>
+            </article>
+
+            <!-- 5 day forecast -->
+            <div class="article-five-day">
+              <article id="forecastContainer">
+                <h2 id="forecastTitle">5 Day Forecast</h2>
+                <h3 id="city"></h3>
+                <div class="flex">
+
+  <main>
+    <div class=""flex-col">Sunny <span id="dayTitle1" class="col-head">Wednesday<img id="Sunny.jpg" class="Sunny.jpg"/> <span class="temp-data1"> <span id="data1"></span><span>47°F</span></div>
+    <div class=""flex-col">Snowy <span id="dayTitle2" class="col-head">Thursday<img id="snowy.jpg" class="snowy.jpg"/> <span class="temp-data2"> <span id="data2"></span><span>43°F</span></div>
+    <div class=""flex-col">Snowy <span id="dayTitle3" class="col-head">Friday<img id="snowy.jpg" class="snowy.jpg"/> <span class="temp-data3"> <span id="data3"></span><span>30°F</span></div>
+    <div class=""flex-col">Cloudy <span id="dayTitle4" class="col-head">Saturday<img id="partlyCloudy.jpg" class="partlyCloudy.jpg"/> <span class="temp-data4"> <span id="data4"></span><span>29°F</span></div>
+    <div class=""flex-col">Cloudy <span id="dayTitle5" class="col-head">Sunday<img id="partlyCloudy.jpg" class="partlyCloudy.jpg"/> <span class="temp-data5"> <span id="data5"></span><span>32°F</span></div>
+  </main>
+  <footer></footer>
+</body>
+</html>
